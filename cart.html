@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Link to the Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Cart - Checkout</title>
+    <link rel="icon" type="x-icon" href="favicon.png">
+</head> 
+<body> 
+    <!-- Header section -->
+    <header>
+        <!-- Logo and title -->
+        <div class="logo">
+            <img src="logo.png" alt="RentUs logo">
+        </div>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" >About Us</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="cart.html" class= "active">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="cart-container"> 
+        <div class="cart-header"> 
+            <h1>Utensil Rental Service</h1> 
+            <p>Your cart items</p> 
+        </div> 
+        <table class="cart-table"> 
+            <thead> 
+                <tr> 
+                    <th>Product</th> 
+                    <th>Name</th> 
+                    <th>Price</th> 
+                    <th>Quantity</th> 
+                    <th>Total</th> 
+                    <th>Action</th> 
+                </tr> 
+            </thead> 
+            <tbody> 
+                <!-- Add your cart items here --> 
+                <tr> 
+                    <td><img src="option1.jpg" alt="Option A"></td> 
+                    <td>Pocket Friendly Package - Option A</td> 
+                    <td>Rs. 999</td> 
+                    <td><input type="number" value="2" min="1"></td> 
+                    <td>Rs. 1998</td> 
+                    <td><button>Delete</button></td> 
+                </tr>
+                <tr>
+                    <td><img src="poption1.png" alt="Option A"></td>
+                    <td>Premium Package - Option A</td>
+                    <td>Rs. 1299</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs. 1299</td>
+                    <td><button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td><img src="upoption1.jpg" alt="Option A"></td>
+                    <td>Ultra-Premium Package - Option A</td>
+                    <td>Rs. 1499</td>
+                    <td><input type="number" value="2" min="1"></td>
+                    <td>Rs. 2998</td>
+                    <td><button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td><img src="loption1.png" alt="Option A"></td>
+                    <td>Luxury Package - Option A</td>
+                    <td>Rs. 1799</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs. 1799</td>
+                    <td><button>Delete</button></td>
+                </tr>
+                <!-- End of cart items -->
+            </tbody>
+        </table>
+        <div class="total">
+            <h2>Total Amount: Rs. 8094</h2>
+            <button>Checkout</button>
+        </div>
+        <!-- Footer section -->
+    <footer>
+        <!-- Footer text -->
+        <p>© 2023 RentUs. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="./script.js"></script>
+

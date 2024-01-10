@@ -1,0 +1,641 @@
+/* CSS file for the website */
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px; /* Increase the padding to 20px */
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+}
+.logo h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    margin-left: 10px;
+}
+nav {
+    display: flex;
+    height: 100%;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 100%; /* Add height to 100% */
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ff6600;
+}
+/* Main styles */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Hero styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.hero-image {
+    width: 60%;
+    margin: 40px;
+
+}
+.hero-image img {
+    width: 100%;
+    margin: 10px;
+}
+.hero-text {
+    width: 40%;
+}
+
+.hero-text h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.hero-text p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff6600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; 
+}
+.btn:hover {
+    background-color: #ff9900;
+}
+/* Benefits styles */
+.benefits {
+    margin-top: 40px;
+}
+.benefits h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.benefit-item {
+    width: 45%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.benefit-icon {
+    width: 20%;
+    margin: 20px;
+}
+
+.benefit-icon img {
+    width: 100%;
+}
+
+.benefit-text {
+    width: 80%;
+}
+
+.benefit-text h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.benefit-text p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Features styles */
+.features {
+    margin-top: 40px;
+}
+
+.features h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    width: 45%;
+    margin-bottom: 20px;
+    border: 2px solid #ff6600; /* Add a border with orange color */
+    border-radius: 10px; /* Add rounded corners to the border */
+    padding: 10px; /* Add some space inside the border */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1); /* Add a subtle shadow effect */
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+}
+
+.feature-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature-text {
+    width: 100%;
+    text-align: center
+}
+
+.feature-text h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.feature-text p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333333; 
+    margin-bottom: 20px;
+}
+
+.feature-text span {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #ff6600; /* Use orange color for the price */
+    font-weight: bold; /* Make the price bold */
+}
+
+/* Testimonial styles */
+.testimonial {
+    margin-top: 40px;
+}
+
+.testimonial-item {
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Change the direction from row to column */
+    align-items: center; /* Align the items in the center */
+    border: 2px solid #ff6600;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.testimonial-image {
+    width: 50%; /* Reduce the width to 50% */
+}
+
+.testimonial-image img {
+    width: 100%;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.testimonial h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-text p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.testimonial-text span {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent the items from wrapping to the next line */
+    justify-content: center; /* Align the items in the center */
+}
+
+.contact-us {
+    background-color: #ff6600; /* Orange background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 1%;
+    margin: 25px;
+
+}
+
+.contact-us h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #ffffff; /* White text */
+}
+
+.contact-us p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #ffffff; /* White text */
+}
+
+.contact-us form {
+    margin-top: 20px;
+}
+
+.contact-us input,
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-us button {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #ffffff; /* White text */
+    background-color: #333333; /* Dark gray background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-us button:hover {
+    background-color: #444444; /* Slightly darker gray */
+}
+
+/* Footer styles */
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+footer p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+/* About Us page styles */
+.about {
+    margin-top: 20px;
+}
+
+.about h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #ff6600;
+    text-align: center;
+    margin: 40px;
+}
+
+.about p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+.faq h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #ff6600;
+    text-align: center; 
+    margin-bottom: 40px;
+}
+
+.faq-list {
+    list-style-type: none; 
+}
+
+.faq-item {
+    margin-bottom: 20px; 
+}
+
+.faq-item h4 {
+    font-family: 'Arial', sans-serif;
+    color: #ff6600;
+    margin-bottom: 5px;
+}
+
+.faq p {
+    font-family: 'Arial', sans-serif;
+    font-size: 15
+    px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.search-bar input {
+    width: 80%;
+    height: 40px;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.search-bar button {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    width: 10%;
+    height: 40px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-bar button:hover {
+    background-color: #ff9900;
+}
+
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.package {
+    width: 45%;
+    margin: 27px;
+    border: 2px solid #ff6600; /* Add a border with orange color */
+    border-radius: 10px; /* Add rounded corners to the border */
+    padding: 10px; /* Add some space inside the border */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1); /* Add a subtle shadow effect */
+}
+
+.package-header {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.package-header h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.package-content {
+    padding: 10px;
+}
+
+.package-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1); /* Add a subtle shadow effect */
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.package-option img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.package-option-info h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.package-option-info p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.package-option-info span {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.package-option-info button {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px; 
+    background-color:#ff6600; 
+    color:white; 
+    border:none; 
+    margin:10px;
+    padding: 10px; 
+} 
+
+.package-option-info button:hover {
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+.reviews {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.review {
+    margin-top: 20px;
+    width: 80%;
+    border: 2px solid #ff6600;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-left: 100px;
+
+}
+
+.review img {
+    display: inline-block;
+    align-items: center;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+  
+.review p {
+    display: inline-block;
+    width: 80%;
+    font-size: 16px;
+    justify-content: center;
+}
+  
+.review span {
+    display: inline-block;
+    width: 10%;
+    color: gold;
+    font-weight: bold;
+}
+
+.cart-header{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cart-header p {
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.cart-table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 2px solid #ff6600;
+    margin: 40px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cart-table th, td {
+    padding: 10px;
+    border: none;
+    text-align: left;
+}
+
+.cart-table th {
+    background-color: #ff6600;
+    color: white;
+    position: relative;
+}
+
+.cart-table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cart-table input {
+    width: 50px;
+    height: 30px;
+    border: 2px solid #ff6600;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.cart-table button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;    
+    background-color: red; 
+    color:white; 
+    border:none; 
+    cursor:pointer; 
+}
+
+.cart-table button:hover {
+    background-color: #f55151;
+}
+
+.total { 
+    font-family: 'Arial', sans-serif;
+    margin-left: 30px; 
+    display : flex; 
+    justify-content : space-between; 
+    align-items : center;
+    margin-bottom: 40px; 
+} 
+   
+.total h2 { 
+    font-family: Arial, sans-serif;
+    font-size : 24px; 
+    font-weight : bold; 
+    color : #333333; 
+} 
+   
+.total button { 
+   width :15%; 
+   height: 40px; 
+   border-radius: 10px; 
+   background-color : #ff6600; 
+   color : white; 
+   border : none; 
+   cursor: pointer; 
+   margin-right: 30px;
+    margin-bottom: 40px;
+}
